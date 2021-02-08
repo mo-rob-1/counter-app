@@ -1,6 +1,6 @@
 # React JS Click Counter
 
-To view the app...
+To run the app...
 
 - NPM Install
 - NPM Start
