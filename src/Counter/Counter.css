@@ -1,0 +1,61 @@
+body {
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Counter {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em;
+    text-align: center;
+    color: #000;
+    margin-top: 1rem;
+    background-color: #ffffff33;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 50px;
+    box-shadow: 10px 10px 58px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 58px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px -8px rgba(0,0,0,0.75);
+}
+
+.Counter__title {
+    margin: 0;
+    font-size: 2.6rem;
+}
+
+.Counter__number {
+    padding: 40px;
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 20px;
+}
+
+.Counter__btn,
+.Counter__reset {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 20px;
+    margin-left: 1.4rem;  
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: 100%;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(black,.2);
+    text-shadow: 4px 4px 25px rgba(0,0,0,0.6);
+    background-color: rgba(255, 255, 255, 0.411);
+    color: #000;
+    cursor: pointer;
+}
+
+.Counter__btn {
+    font-size: 2rem;
+}
+
+.Counter__reset {
+    font-weight: bold;
+}
