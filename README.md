@@ -1,4 +1,4 @@
-# React JS Click Counter
+# React JS Click Counter App
 
 To run the app...
 
