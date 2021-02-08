@@ -1,4 +1,4 @@
-# Click Counter
+# React JS Click Counter
 
 To view the app...
 
