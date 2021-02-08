@@ -1,7 +1,8 @@
 body {
-    background: #06beb6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .Counter {
@@ -12,7 +13,7 @@ body {
     flex-direction: column;
     padding: 1.5em;
     text-align: center;
-    color: #000;
+    color: #fff;
     margin-top: 1rem;
     background-color: #ffffff33;
     padding: 2em;
@@ -48,7 +49,7 @@ body {
     box-shadow: 0 1px 3px rgba(black,.2);
     text-shadow: 4px 4px 25px rgba(0,0,0,0.6);
     background-color: rgba(255, 255, 255, 0.411);
-    color: #000;
+    color: #fff;
     cursor: pointer;
 }
 
